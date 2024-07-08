@@ -1,4 +1,6 @@
 {
+  "detectors_to_exclude": "",
+  "printers_to_run": "inheritance-graph",
   "compile_force_framework": "hardhat",
   "hardhat_ignore_compile": true,
   "npx_disable": true,

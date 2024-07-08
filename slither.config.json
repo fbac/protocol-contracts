@@ -1,3 +1,5 @@
 {
-  "compile_force_framework": "hardhat"
+  "compile_force_framework": "hardhat",
+  "hardhat_ignore_compile": true,
+  "npx_disable": true
 }

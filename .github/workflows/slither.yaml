@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: "18"
 
+      - name: Compile contracts
+        run: yarn compile
+
       - name: Run Slither
         uses: crytic/slither-action@main
         id: slither
